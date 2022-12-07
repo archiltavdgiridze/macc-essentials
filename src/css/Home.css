@@ -1,0 +1,40 @@
+/* h1 {
+  color: red;
+}
+
+.login_div {
+  width: auto;
+  height: 40px;
+
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+  background-color: var(--primaryWhite);
+  font-family: var(--secondaryFont);
+  
+}
+
+.login_div ul {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  margin: 0 56px 0 0;
+  padding: 0;
+}
+
+.login_div li {
+  color: var(--primaryGray);
+  margin: 0 0 0 44px;
+  padding: 0;
+  cursor: pointer;
+}
+
+hr {
+  width: 99%;
+  border: 1px solid #D2D2D2;
+  margin: 0 0 0 5px;
+} */
