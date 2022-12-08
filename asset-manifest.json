@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/macc-essentials/static/css/main.f9a349d7.css",
+    "main.css": "/macc-essentials/static/css/main.1011220e.css",
     "main.js": "/macc-essentials/static/js/main.66a46623.js",
     "static/media/services_human.png": "/macc-essentials/static/media/services_human.188c6858b54bee24ea5f.png",
     "index.html": "/macc-essentials/index.html",
-    "main.f9a349d7.css.map": "/macc-essentials/static/css/main.f9a349d7.css.map",
+    "main.1011220e.css.map": "/macc-essentials/static/css/main.1011220e.css.map",
     "main.66a46623.js.map": "/macc-essentials/static/js/main.66a46623.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9a349d7.css",
+    "static/css/main.1011220e.css",
     "static/js/main.66a46623.js"
   ]
 }
