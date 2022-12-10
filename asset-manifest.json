@@ -1,14 +1,24 @@
 {
   "files": {
-    "main.css": "/macc-essentials/static/css/main.1011220e.css",
-    "main.js": "/macc-essentials/static/js/main.66a46623.js",
+    "main.css": "/macc-essentials/static/css/main.6df4e3c9.css",
+    "main.js": "/macc-essentials/static/js/main.31f79f5f.js",
+    "static/media/collection_cover.png": "/macc-essentials/static/media/collection_cover.7d977e934676a94dfc24.png",
+    "static/media/happy_man.png": "/macc-essentials/static/media/happy_man.60090f57e0688b56adf3.png",
+    "static/media/phone_in_hand.png": "/macc-essentials/static/media/phone_in_hand.df9eb72daa1407490844.png",
     "static/media/services_human.png": "/macc-essentials/static/media/services_human.188c6858b54bee24ea5f.png",
+    "static/media/handGloves.png": "/macc-essentials/static/media/handGloves.ba05b8f7162e6dc4bf4e.png",
+    "static/media/stayfree_pads.png": "/macc-essentials/static/media/stayfree_pads.884c12e4de24a1f0d6c8.png",
+    "static/media/axe_deodorant.png": "/macc-essentials/static/media/axe_deodorant.a076a889fe301952b45b.png",
+    "static/media/sanitizer.png": "/macc-essentials/static/media/sanitizer.d53d8060350130d65570.png",
+    "static/media/vitaminC.png": "/macc-essentials/static/media/vitaminC.f6752e7fb685519dcb02.png",
+    "static/media/face_mask.png": "/macc-essentials/static/media/face_mask.36acc5fade564b19b52b.png",
+    "static/media/deodorant.png": "/macc-essentials/static/media/deodorant.42ebf134f11dc4b8402f.png",
     "index.html": "/macc-essentials/index.html",
-    "main.1011220e.css.map": "/macc-essentials/static/css/main.1011220e.css.map",
-    "main.66a46623.js.map": "/macc-essentials/static/js/main.66a46623.js.map"
+    "main.6df4e3c9.css.map": "/macc-essentials/static/css/main.6df4e3c9.css.map",
+    "main.31f79f5f.js.map": "/macc-essentials/static/js/main.31f79f5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1011220e.css",
-    "static/js/main.66a46623.js"
+    "static/css/main.6df4e3c9.css",
+    "static/js/main.31f79f5f.js"
   ]
 }
