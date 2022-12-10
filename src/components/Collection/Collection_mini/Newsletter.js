@@ -164,6 +164,7 @@ const Newsletter = () => {
                   <button type="">1</button>
                   <button type="">2</button>
                   <button type=""> {">"} </button>
+                  
                 </div>
               </div>
             </div>
