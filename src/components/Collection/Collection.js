@@ -10,9 +10,6 @@ const Collection = () => {
       <Header />
       <Cover />
       <Newsletter /> 
-
-
-
       {/* <Footer /> */}
     </div>
   )

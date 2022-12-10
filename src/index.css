@@ -5,6 +5,7 @@
   --primaryLightBlack: #222222;
   --primaryGray: #4A4B4D;
   --primaryLightGray: #707070;
+  --primaryLighterGray: #F3F3F3;
   --primaryRed: #E2342D;
   --primaryBlue: #004197;
 
@@ -327,7 +328,7 @@ hr {
   position: relative;
   width: 390px;
   height: 540px;
-  background-color: #F3F3F3;
+  background-color: var(--primaryLighterGray);
 }
 
 .new_prod_box img {
@@ -431,12 +432,12 @@ hr {
 }
 
 .disc_right_cont {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .disc_right_box {
   position: relative;
-  background-color: #F3F3F3;
+  background-color: var(--primaryLighterGray);
 }
 
 .axe_img {
@@ -610,7 +611,7 @@ hr {
 
 .sell_right_box {
   position: relative;
-  background-color: #F3F3F3;
+  background-color: var(--primaryLighterGray);
 }
 
 .axe_img {
@@ -872,6 +873,217 @@ hr {
 /* ! Collection */
 /* ~ Cover */
 
-.cover_img {
+.cover_img img {
+  width: 100%;
   margin-bottom: 50px;
+}
+
+/* ~ Newsletter */
+
+.newsletter {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; */
+  margin-bottom: 50px;
+}
+
+.nl_content {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  padding: 0 30px;
+
+}
+
+.nl_filters {
+  width: 250px;
+  text-align: start;
+}
+
+.filt_cont_tab {}
+
+.nl_coll_cont {
+  width: 75%;
+}
+
+.nl_coll_prod {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coll_prod_tab {}
+
+.coll_prod_tab button {
+  width: 230px;
+  height: 72px;
+  padding: 23px auto 25px;
+  border: none;
+
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+
+  font-family: var(--secondaryFont);
+  color: var(--primaryGray);
+  background-color: var(--primaryLighterGray);
+}
+
+.coll_prod_tab button:hover {
+  color: #ffffff;
+  background-color: var(--primaryBlue);
+  transition: 0.4s;
+}
+
+.coll_prod_tab button:focus {
+  color: #ffffff;
+  background-color: var(--primaryBlue);
+  transition: 0.4s;
+  outline: none;
+}
+
+.coll_prod_tab~.coll_prod_tab {
+  margin-left: 20px;
+}
+
+.nl_prod_table {}
+
+.table_count_sort {}
+
+.count_sort_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table_item_count {}
+
+.table_item_count p {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-family: var(--secondaryFont);
+  color: var(--primaryGray);
+}
+
+.table_item_sort {}
+
+.shop_items {}
+
+.prod_table_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.nl_right_cont {
+  margin-bottom: 50px;
+  border: 1px solid red;
+
+}
+
+.nl_right_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  background-color: var(--primaryLighterGray);
+  width: 320px;
+  height: 440px;
+}
+
+.nl_top_seller {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  top: 0;
+  right: 0;
+
+  width: 148px;
+  height: 30px;
+  padding: 6px 24px;
+
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+
+  color: #FFFFFF;
+  background-color: var(--primaryRed);
+  font-family: var(--secondaryFont);
+  cursor: pointer;
+}
+
+.axe1_img {}
+
+.nl_right_box_text {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+
+  color: var(--primaryBlack);
+  font-family: var(--primaryFont);
+
+}
+
+.nl_right_box_text p {
+  margin: 0 0 0 0;
+  padding: 8px 0 4px;
+}
+
+.nl_right_box_text p:nth-child(2) {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.nl_right_box_text p span {
+  text-decoration: line-through;
+}
+
+.vitC_img {}
+
+.handGloves_img {}
+
+.sanitizer_img {}
+
+.facemask_img {}
+
+.deodorant_img {}
+
+.prod_table_changer {
+  display: flex;
+  justify-content: center;
+}
+
+.prod_table_changer button {
+  width: 34px;
+  height: 34px;
+  margin-left: 10px;
+
+  border: none;
+  background-color: var(--primaryLighterGray);
+  cursor: pointer;
+}
+
+.prod_table_changer button:nth-child(1) {
+  margin-left: 0;
+}
+
+.prod_table_changer button:hover {
+  color: #ffffff;
+  background-color: var(--primaryLightGray);
+  transition: 0.4s;
+}
+
+.prod_table_changer button:focus {
+  color: #ffffff;
+  background-color: var(--primaryBlack);
+  transition: 0.4s;
+  outline: none;
 }
