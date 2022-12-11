@@ -8,10 +8,8 @@ import YMAL from './PrDet_mini/YMAL';
 const ProductDetails = () => {
   return (
     <div>
-      {/* <Header /> */}
       <MainProdDet />
       <YMAL />
-      {/* <Footer /> */}
     </div>
   )
 }

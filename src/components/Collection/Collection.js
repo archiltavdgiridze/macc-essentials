@@ -7,10 +7,8 @@ import Newsletter from './Collection_mini/Newsletter';
 const Collection = () => {
   return (
     <div>
-      <Header />
       <Cover />
       <Newsletter /> 
-      <Footer />
     </div>
   )
 }

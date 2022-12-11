@@ -11,13 +11,11 @@ import Footer from "../Footer/Footer";
 const Home = () => {
   return (
     <div>
-      <Header />
       <HomeServices />
       <NewProducts />
       <Discounts />
       <Sellings />
       <Covid />
-      <Footer />
     </div>
   );
 };

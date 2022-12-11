@@ -1313,9 +1313,12 @@ hr {
   text-decoration: none;
 }
 
+/* ~ Checkout */
+
 .checkout_main {
   display: flex;
   justify-content: space-around;
+  margin: 50px 0 80px;
   /* align-items: center; */
 }
 
