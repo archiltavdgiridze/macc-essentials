@@ -18,16 +18,16 @@ function App() {
         <Header />
         <div className="content">
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/macc-essentials/">
               <Home />
             </Route>
-            <Route path="/essentials">
+            <Route path="/macc-essentials/essentials">
               <Collection />
             </Route>
-            <Route path={"/sellings"}>
+            <Route path={"/macc-essentials/sellings"}>
               <Sellings />
             </Route>
-            <Route path={"/details"}>
+            <Route path={"/macc-essentials/details"}>
               <ProductDetails />
             </Route>
           </Switch>
