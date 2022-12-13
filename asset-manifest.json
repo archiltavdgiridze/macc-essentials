@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/macc-essentials/static/css/main.12e675e9.css",
-    "main.js": "/macc-essentials/static/js/main.59b1fa44.js",
+    "main.css": "/macc-essentials/static/css/main.03589f7f.css",
+    "main.js": "/macc-essentials/static/js/main.42da92ed.js",
     "static/media/collection_cover.png": "/macc-essentials/static/media/collection_cover.7d977e934676a94dfc24.png",
     "static/media/happy_man.png": "/macc-essentials/static/media/happy_man.60090f57e0688b56adf3.png",
     "static/media/phone_in_hand.png": "/macc-essentials/static/media/phone_in_hand.df9eb72daa1407490844.png",
@@ -16,11 +16,11 @@
     "static/media/face_mask.png": "/macc-essentials/static/media/face_mask.36acc5fade564b19b52b.png",
     "static/media/deodorant.png": "/macc-essentials/static/media/deodorant.42ebf134f11dc4b8402f.png",
     "index.html": "/macc-essentials/index.html",
-    "main.12e675e9.css.map": "/macc-essentials/static/css/main.12e675e9.css.map",
-    "main.59b1fa44.js.map": "/macc-essentials/static/js/main.59b1fa44.js.map"
+    "main.03589f7f.css.map": "/macc-essentials/static/css/main.03589f7f.css.map",
+    "main.42da92ed.js.map": "/macc-essentials/static/js/main.42da92ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.12e675e9.css",
-    "static/js/main.59b1fa44.js"
+    "static/css/main.03589f7f.css",
+    "static/js/main.42da92ed.js"
   ]
 }
