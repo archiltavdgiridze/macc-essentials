@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 import searchIcon from "../../../assets/Home/navbar/search_lupa.png";
 import personIcon from "../../../assets/Home/navbar/person_icon_navbar.png";
 import bellIcon from "../../../assets/Home/navbar/bell_notif_img.png";
@@ -14,13 +15,23 @@ const Navbar = () => {
         </div>
         <div className="nav_links">
           <ul>
-            <li className='list1'>SHOP</li>
-            <li className='list2'>ESSENTIALS</li>
-            <li className="brand list3">
-              Macc <span>Essentials</span>
+            <li className="list1">
+              <Link to={"/details"}>SHOP</Link>
             </li>
-            <li className='list4'>BEST SELLERS</li>
-            <li className='list5'>ABOUT US</li>
+            <li className="list2">
+              <Link to="/essentials">ESSENTIALS</Link>
+            </li>
+            <li className="brand list3">
+              <Link to="/">
+                Macc <span>Essentials</span>
+              </Link>
+            </li>
+            <li className="list4">
+              <Link to={"/sellings"}>BEST SELLERS</Link>
+            </li>
+            <li className="list5">
+              <Link to={"/"}>ABOUT US</Link>
+            </li>
           </ul>
         </div>
         <div className="link_icons">
@@ -31,6 +42,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

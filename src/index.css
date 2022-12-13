@@ -23,7 +23,9 @@ body {
   text-align: center;
 }
 
-
+a {
+  text-decoration: none;
+}
 
 hr {
   width: 99%;
@@ -144,7 +146,13 @@ hr {
   cursor: pointer;
 }
 
-.nav_links ul li:hover {
+.nav_links ul li a{
+  color: var(--primaryBlack);
+}
+
+
+
+.nav_links ul li:hover, .nav_links ul li a:hover {
   color: var(--primaryRed);
   transition: 0.4s;
 }
@@ -153,7 +161,7 @@ hr {
   color: var(--primaryBlue);
 }
 
-.nav_links .brand {
+.nav_links .brand a {
   font-family: 'Monotype Corsiva';
   font-size: 40px;
   color: var(--primaryRed);
@@ -1351,6 +1359,8 @@ hr {
   text-align: start;
 }
 
+
+
 .co_name_sur {
   display: flex;
   justify-content: space-between;
@@ -1464,10 +1474,10 @@ hr {
   font-weight: 700;
   line-height: 36px;
   margin: 0;
-  
+
   color: var(--primaryWhite);
   font-family: var(--primaryFont);
-  
+
 }
 
 .co_img {}

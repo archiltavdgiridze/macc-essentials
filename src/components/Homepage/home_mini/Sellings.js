@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 import axe from "../../../assets/Home/new_products/axe_deodorant.png";
 import faceMask from "../../../assets/Home/new_products/face_mask.png";
-import happyMan from "../../../assets/Home/sellings/happy_man.png"
+import happyMan from "../../../assets/Home/sellings/happy_man.png";
 
 const Sellings = () => {
   return (
-    <div className="sellings">
+    // <Link>
+    <div className="sellings" id="sellings">
       <div className="container">
         <div className="sell_cont">
           {/* left */}
@@ -19,23 +21,23 @@ const Sellings = () => {
 
             {/* images */}
             <div className="sell_right_box_img">
-              <div className="sell_right_cont">
-                <div className="sell_right_box">
-                  <div className="sell_top_seller">
-                    <p>20% OFF</p>
+              <Link to={"/details"}>
+                <div className="sell_right_cont">
+                  <div className="sell_right_box">
+                    <div className="sell_top_seller">
+                      <p>20% OFF</p>
+                    </div>
+                    <img className="axe_img" src={axe} alt="" />
                   </div>
-                  <img className="axe_img" src={axe} alt="" />
-                </div>
 
-                <div className="sell_right_box_text">
-                  <div>
-                    <p>Body Spray</p>
-                    <p>
-                      ₹ 400
-                    </p>
+                  <div className="sell_right_box_text">
+                    <div>
+                      <p>Body Spray</p>
+                      <p>₹ 400</p>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </Link>
 
               <div className="sell_right_cont">
                 <div className="sell_right_box">
@@ -48,9 +50,7 @@ const Sellings = () => {
                 <div className="sell_right_box_text">
                   <div>
                     <p>Face Mask</p>
-                    <p>
-                      ₹ 400
-                    </p>
+                    <p>₹ 400</p>
                   </div>
                 </div>
               </div>
@@ -65,7 +65,8 @@ const Sellings = () => {
         </div>
       </div>
     </div>
+    // </Link>
   );
-}
+};
 
-export default Sellings
+export default Sellings;
