@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/macc-essentials/static/css/main.03589f7f.css",
-    "main.js": "/macc-essentials/static/js/main.6dbe4860.js",
+    "main.js": "/macc-essentials/static/js/main.e1019fd5.js",
     "static/media/collection_cover.png": "/macc-essentials/static/media/collection_cover.7d977e934676a94dfc24.png",
     "static/media/happy_man.png": "/macc-essentials/static/media/happy_man.60090f57e0688b56adf3.png",
     "static/media/phone_in_hand.png": "/macc-essentials/static/media/phone_in_hand.df9eb72daa1407490844.png",
@@ -17,10 +17,10 @@
     "static/media/deodorant.png": "/macc-essentials/static/media/deodorant.42ebf134f11dc4b8402f.png",
     "index.html": "/macc-essentials/index.html",
     "main.03589f7f.css.map": "/macc-essentials/static/css/main.03589f7f.css.map",
-    "main.6dbe4860.js.map": "/macc-essentials/static/js/main.6dbe4860.js.map"
+    "main.e1019fd5.js.map": "/macc-essentials/static/js/main.e1019fd5.js.map"
   },
   "entrypoints": [
     "static/css/main.03589f7f.css",
-    "static/js/main.6dbe4860.js"
+    "static/js/main.e1019fd5.js"
   ]
 }
